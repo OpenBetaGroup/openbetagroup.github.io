@@ -5,18 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>OpenBeta</title>
         <link rel="icon" type="image/x-icon" href="./favicon.ico">
-        <meta name="description" content="The OpenBeta project is an attempt to make early Minecraft
-                something the community has full control over. This is being done
-                through reverse engineering, reimplementing and documenting the ins
-                and outs of how old Minecraft worked.">
+        <meta name="description" content="Betrock++ is a Beta 1.7.3-compatible Server and (eventually) Client written largely from scratch in C++.">
 
         <!-- Open Graph -->
         <meta property="og:type" content="website">
         <meta property="og:title" content="OpenBeta | BetrockPlusPlus">
-        <meta property="og:description" content="The OpenBeta project is an attempt to make early Minecraft
-                something the community has full control over. This is being done
-                through reverse engineering, reimplementing and documenting the ins
-                and outs of how old Minecraft worked.">
+        <meta property="og:description" content="Betrock++ is a Beta 1.7.3-compatible Server and (eventually) Client written largely from scratch in C++.">
         <meta property="og:url" content="https://openbetagroup.github.io/OpenBeta/betrockplusplus">
         <!--<meta property="og:image" content="https://openbetagroup.github.io/OpenBeta/img/embed.png">-->
         <!--<meta property="og:image:alt" content="OpenBeta">-->
@@ -24,10 +18,7 @@
         <!-- Twitter / X -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="OpenBeta | BetrockPlusPlus">
-        <meta name="twitter:description" content="The OpenBeta project is an attempt to make early Minecraft
-                something the community has full control over. This is being done
-                through reverse engineering, reimplementing and documenting the ins
-                and outs of how old Minecraft worked.">
+        <meta name="twitter:description" content="Betrock++ is a Beta 1.7.3-compatible Server and (eventually) Client written largely from scratch in C++.">
         <!--<meta name="twitter:image" content="https://openbetagroup.github.io/OpenBeta/img/embed.png">-->
         <!--<meta name="twitter:image:alt" content="OpenBeta">-->
         <link rel="stylesheet" href="style.css">
@@ -56,10 +47,17 @@
         <a href="/" style="width: 100%; text-align: center; display:block">Return to Homepage</a>
         <p>
             Betrock++ is a Beta 1.7.3-compatible Server and (eventually) Client written largely from scratch in C++.
-            It offers significantly improved performance, memory usage and an addon system.
         </p>
-        <h2>Links</h2>
-        <table class="no_highlight_link">
+        <p>
+            It offers significantly improved performance, reduced memory usage,
+            accurate terrain generation, mob behavior, gamerules, commands, a very capable addon system and much more!
+        </p>
+        <p>
+            For those interested in developing for the addon system, there exists the <a href="https://github.com/OpenBetaGroup/BetrockPlusPlus/wiki/Addons">Addon Wiki</a>,
+            primarily focused on how to write an addon for the C ABI or how to write an addon binding for other languages, such as Rust.
+        </p>
+        <h2>Source code</h2>
+        <table>
             <tr>
                 <td>
                     <a href="https://github.com/OpenBetaGroup/BetrockPlusPlus">GitHub <img src="./img/github.png"></a>
@@ -70,10 +68,11 @@
             </tr>
             <tr>
                 <td>
-                    Currently where most development happens
+                    Currently where most development happens.
+                    This is also where you can find compiled binares for Windows, Linux and MacOS.
                 </td>
                 <td>
-                    A mirror in case Github dies
+                    A mirror in case Github dies. Only holds source code, so only interesting for devs that want a backup.
                 </td>
             </tr>
         </table>
@@ -90,7 +89,18 @@
                 >
                 <div class="server-info">
                     <a class="server-title" href="join://sketchhook.com:25565/use/beta_14/b1.7.3">Betrock++ SMP [Online Mode]</a>
-                    <div>Vanilla Survival Beta 1.7.3 Server rewritten in C++ (Discord: https://discord.gg/JHTz2HSKrf | Github: https://github.com/OpenBetaGroup/BetrockPlusPlus)</div>
+                    <div>The public testing SMP for Betrock++. Usually runs a very recent version that needs testing.</div>
+                </div>
+            </div>
+            <div class="server">
+                <img
+                    class="server-logo"
+                    src="https://api.betacraft.uk/v2/server_icon?socket=mc.goobabs.com:25565"
+                    alt="Server Logo"
+                >
+                <div class="server-info">
+                    <a class="server-title" href="join://mc.goobabs.com:25565/use/beta_14/b1.7.3">Sticky [Online Mode]</a>
+                    <div>A vanilla b1.7.3 Minecraft server, cross platform with both Java and Bedrock Edition. Discord: discord.goobabs.com</div>
                 </div>
             </div>
         </div>
